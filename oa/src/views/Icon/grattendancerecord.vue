@@ -1,6 +1,6 @@
 <template>
 
- <div>
+ <div class="boddy">
  <el-button type="primary" size="mini">最近一个月</el-button>
   <el-button  type="primary" size="mini">最近一星期</el-button>
   <el-button  type="primary" size="mini">当天</el-button>
@@ -21,7 +21,7 @@
   <el-table
     :data="tableData"
     border
-    style="width: 95%">
+    style="width: 97%">
    
       
  
@@ -95,5 +95,10 @@
   }
 </script>
 <style scoped>
-
+.boddy{
+  background-color: white;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-bottom: 30px;
+}
 </style>
